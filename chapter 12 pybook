@@ -82,12 +82,10 @@ finally:
 print ("End")
 
 13):
-the problem with this code is that the code is not taking a vlue from user so it will never give us ValueError
+the problem with this code is that the code is not taking a vlue from user so it will never give us ValueError or we can remove 
 
-remove Except valueError
-
-try:
-    f() # Function f can raise an exception
+except ValueError:
+    print(2)
 except Exception:
     print(1)
     
