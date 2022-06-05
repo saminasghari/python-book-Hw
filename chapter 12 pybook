@@ -94,4 +94,9 @@ except Exception:
     
 soal(14):
 the problem is that f is not defined.
+:
+except FileNotFoundError:
+    print(2)
+except OSError:
+    print(1)
 
