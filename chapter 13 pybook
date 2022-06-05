@@ -1,0 +1,18 @@
+“Created on Friday May 12:23:40 2022””
+@author : samin asghari”””
+
+Exercises[chapter 13pybook]: 
+
+9)
+
+11)
+(a) What does the program print?
+40
+0
+41
+1
+50
+21
+
+(b) If wid is a Widget object, what is the minimum value the expression wid.get() can return?  0
+(c) If wid is a Widget object, what is the maximum value the expression wid.get() can return?  50
