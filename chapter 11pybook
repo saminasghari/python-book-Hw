@@ -17,6 +17,11 @@ a, b, c, d = m
 print ((a, b, c, d))
 
 6)
+a = (1, 2, 3, 4, 5, 6, 7, 8)
+print(a)
+s = a[3:7]
+print(s)
+
 7)
  tpl = 7,10,-3,18,6,10
 t = tpl[0],tpl[-1]
@@ -30,6 +35,16 @@ x, a, b, c, d, y = tpl
 print (x, y)
 
 8)
+def product(*name):
+    Product = 1
+    for i in name:
+        Product *= i
+    return Product
+
+
+
+print(product(7,9,32))
+print(product())
 
 9)def zero_sum(tuple):
     a=0
@@ -81,6 +96,20 @@ Print(“ “)
 
 18)
 19)
+class Circle():
+    def _init_(self, r):
+        self.radius = r
+
+    def area(self):
+        return self.radius**2*3.14
+
+    def perimeter(self):
+        return 2*self.radius*3.14
+
+r = int(input("please enter the radius: "))
+NewCircle = Circle(r)
+print("Area of the circle: ", NewCircle.area())
+print("Perimeter of circle: " ,NewCircle.perimeter())
 
 20)-because the correct sentence is: a =()
 -because if you want to use {} you must contain at least one element
