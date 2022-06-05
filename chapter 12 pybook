@@ -1,0 +1,97 @@
+“Created on Friday May 12:23:40 2022””
+@author : samin asghari”””
+Exercises[chapter 12pybook]: 
+
+
+11)
+
+12)
+(a): try:
+       print('Begin')
+    x = int(input())
+    print(x)
+    print('End')
+except ValueError:
+    print("the input not correct ")
+
+(b): this one is correct
+
+print ("Begin")
+try:
+    x = int(input())
+    print(x)
+except ValueError:
+    print ("Wrong!")
+print("end")
+
+(c):Because we don’t have any tuples or lists, we will not see index error
+as a solution we will write ValueError an the error will be fixed!
+
+print ("Begin")
+try:
+    x = int(input())
+    print(x)
+except ValueError:
+    print("Invalid Value")
+except IndexError:
+    print ("Wrong!")
+print("End")
+
+(d): 
+print ("Begin")
+try:
+    x = int(input())
+    print(x)
+except Exception:
+    print ("Wrong!")
+print ("End")
+
+(e):
+print ("Begin")
+try:
+    x = int(input())
+    print (x)
+except ValueError:
+    print ("Wrong!")
+else:
+    print ("Wow")
+print ("End")
+
+(f):
+print ("Begin")
+try:
+    x = int(input())
+    print (x)
+except ValueError:
+    print ("Wrong!")
+finally:
+    print ("Done")
+print ("End")
+
+(g):
+print ("Begin")
+try:
+    x = int(input())
+    print (x)
+except ValueError:
+    print ("Wrong!")
+else:
+    print ("Wow")
+finally:
+    print("Done")
+print ("End")
+
+13):
+the problem with this code is that the code is not taking a vlue from user so it will never give us ValueError
+
+remove Except valueError
+
+try:
+    f() # Function f can raise an exception
+except Exception:
+    print(1)
+    
+    
+soal(14):
+the problem is that f is not defined.
+
