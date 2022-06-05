@@ -4,6 +4,21 @@
 Exercises[chapter 13pybook]: 
 
 9)
+class Circle():
+    def _init_(self, r):
+        self.radius = r
+
+    def area(self):
+        return self.radius**2*3.14
+
+    def perimeter(self):
+        return 2*self.radius*3.14
+
+r = int(input("please enter the radius: "))
+NewCircle = Circle(r)
+print("Area of the circle: ", NewCircle.area())
+print("Perimeter of circle: " ,NewCircle.perimeter())
+
 
 11)
 (a) What does the program print?
