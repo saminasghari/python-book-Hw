@@ -15,4 +15,4 @@ Exercises[chapter 13pybook]:
 21
 
 (b) If wid is a Widget object, what is the minimum value the expression wid.get() can return?  0
-(c) If wid is a Widget object, what is the maximum value the expression wid.get() can return?  50
+(c) If wid is a Widget object, what is the maximum value the expression wid.get() can return?  50,∞ (Infinity)
